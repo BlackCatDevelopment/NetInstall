@@ -1,0 +1,22 @@
+@import url(http://blackcat-cms.org/templates/mojito/css/default/font.css);
+body{background-color:#F9F9F9;color:#777777;margin:0;padding:0;min-width:60em;font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;font-size:14px;position:relative;}
+div{width:960px;margin:0 auto;}
+div#header{height:120px;background: url("http://blackcat-cms.org/templates/mojito/css/default/images/logo.png") no-repeat scroll left center rgba(0, 0, 0, 0);line-height:120px;vertical-align:middle;text-align:center;font-size:1.6em;}
+div#headline,h1,div.error{font-size:1.2em;margin:15px auto;font-weight:900;}
+div.error,div.running{border: 1px solid #a4bed4;padding:15px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-khtml-border-radius: 8px;border-radius: 8px;}
+div.error{background-color:#FFCCCC;border-color:#990000;}
+div.running{background:transparent url(38.gif) right center no-repeat;}
+.label,label{display:inline-block;width:250px;text-align:right;font-weight:900;margin-right:15px;}
+button[type="submit"]{display:inline-block;background-color:#777;color:#fff;font-weight:900;font-size:1.2em;width:100%;margin:15px auto;padding:10px;border:0;}
+span.icon{display:inline-block;width:30px;height:30px;}
+.icon-checkmark-circle{color:#6c6;}
+.border{border:1px solid #777;padding:10px;}
+.round{-webkit-border-radius: 6px;-moz-border-radius: 6px;-khtml-border-radius: 6px;border-radius: 6px;}
+.note{font-style:italic;}
+
+.timeline{width:960px;margin:60px auto;padding:0;border-top:2px solid #777;list-style:none;}
+.timeline .step{float:left;width:25%;padding-top:30px;position:relative;}
+.timeline .step-marker{width:50px;height:50px;margin-left:-25px;background:#777;border:4px solid #777;border-radius:50%;box-shadow:0 0 0 10px #fff;text-align:center;line-height:48px;color:#fff;font-size:2em;font-style:normal;position:absolute;top:-26px;left:50%;}
+.timeline .step span{display:block;width:100%;padding:30px 5px 0;font-size:12px;text-align:center;position:absolute;top:5px;}
+.timeline .current .step-marker {background:#7fc5d7;}
+
