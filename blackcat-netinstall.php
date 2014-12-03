@@ -292,12 +292,12 @@ function download()
         }
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState == 4 ) {
-                if(xmlhttp.status != 200) {
+                if(xmlhttp.status != 200 && xmlhttp.status != 0) {
                     if(xmlhttp.status == 400) {
                         alert('There was an error 400')
                     }
                     else {
-                        alert('something other than 200 was returned: ' + xmlhttp.status)
+                        console.log('something other than 200 was returned: ' + xmlhttp.status)
                     }
                 }
                 else
